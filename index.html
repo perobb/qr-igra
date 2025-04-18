@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QR Igra</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>QR Igra</h1>
+  <p>Unesi svoje ime i prezime kako bi nastavio igru:</p>
+  <input type="text" id="imePrezime" placeholder="Ime i prezime">
+  <button onclick="startGame()">Potvrdi</button>
+
+  <div id="rezultat" style="display:none">
+    <p>Broj skeniranih QR kodova: <span id="brojKodova">0</span>/25</p>
+    <div id="hint"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
