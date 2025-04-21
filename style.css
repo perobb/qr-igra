@@ -1,22 +1,51 @@
+body {  
+  background-color: #000;  
+  background-image: url('switch-znak.png');  
+  background-repeat: no-repeat;  
+  background-position: center center;  
+  background-size: contain;  
+  background-attachment: fixed;  
+  color: #fff;  
+  font-family: Arial, sans-serif;  
+  padding: 20px;  
+  text-align: center;  
+}  
 
-body {
-  background-color: #000;
-  background-image: url('logo-text-white.png');
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain;
-  background-attachment: fixed;
-  color: #fff;
-  font-family: Arial, sans-serif;
-  padding: 20px;
-  text-align: center;
-}
-input, button {
-  padding: 10px;
-  margin: 10px 0;
-  font-size: 16px;
-}
-#hint {
-  margin-top: 20px;
-  font-weight: bold;
-}
+h1 {  
+  margin-top: 50px;  
+  font-size: 3em;  
+}  
+
+input, button {  
+  padding: 10px;  
+  margin: 10px 0;  
+  font-size: 16px;  
+  border: none;  
+  border-radius: 5px;  
+}  
+
+input {  
+  width: 80%;  
+  max-width: 300px;  
+}  
+
+button {  
+  background-color: #1abc9c;  
+  color: #fff;  
+  cursor: pointer;  
+  transition: background-color 0.3s;  
+}  
+
+button:hover {  
+  background-color: #16a085;  
+}  
+
+#hint {  
+  margin-top: 20px;  
+  font-weight: bold;  
+}  
+
+#rezultat {  
+  display: none;  
+  margin-top: 20px;  
+}  
